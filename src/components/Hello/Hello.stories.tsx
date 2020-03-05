@@ -7,7 +7,7 @@ export default {
   component: Hello
 };
 
-export const Hello = () => (
+export const Hello1 = () => (
   <Hello text="hello" />
 );
 
