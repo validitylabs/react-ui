@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "outDir": "build/lib",
+      "outDir": "build",
       "module": "esnext",
       "target": "es5",
       "lib": ["es5", "es6", "es7", "es2017", "dom", "esnext"],
@@ -9,7 +9,7 @@
       "allowJs": false,
       "jsx": "react",
       "moduleResolution": "node",
-      "rootDirs": ["src"],
+      "rootDir": "./",
       "baseUrl": "src",
       "forceConsistentCasingInFileNames": true,
       "noImplicitReturns": true,
@@ -24,5 +24,5 @@
       "emitDecoratorMetadata": true
     },
     "include": ["src/**/*"],
-    "exclude": ["node_modules", "build", "scripts"]
+    "exclude": ["node_modules", "build", "storybook-static", ".git"]
 }

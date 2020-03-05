@@ -1,3 +1,3 @@
 # Hello
 
-Documentation of the Hello component.
+A simple component for testing purposes.
